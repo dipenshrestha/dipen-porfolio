@@ -78,8 +78,8 @@ function Home() {
           {tagline}
         </h2>
       </div>
-      <div className="mt-5 md:mt-0">
-        <img ref={myimageref} className="w-[30%] md:ml-auto" src={img} alt="Dipen Shrestha" />
+      <div className="mt-0 md:mt-0">
+        <img ref={myimageref} className="w-[40%] md:ml-auto" src={img} alt="Dipen Shrestha" />
       </div>
     </main>
   );
