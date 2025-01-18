@@ -11,7 +11,7 @@ function About() {
         </h1>
         <p className="text-content py-8 lg:max-w-3xl">{personalDetails.about}</p>
         <p className="text-content lg:max-w-3xl">Click below to download my CV:</p>
-        <a href="./assets/cv/DipenShrestha_resume.pdf" download>
+        <a href="./assets/cv/DipenShrestha_resume.pdf" download="DipenShrestha_resume.pdf">
           <button class="mt-5 mb-10 px-6 py-3 bg-blue-500 text-white font-bold rounded-lg hover:bg-blue-600 active:bg-blue-700 disabled:bg-gray-400 transition-transform transform hover:scale-105 active:scale-95">Download CV</button>
         </a>
       </section>
