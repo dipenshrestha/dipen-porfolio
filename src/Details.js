@@ -70,6 +70,13 @@ export const workDetails = [
 // Enter your Education Details here
 export const eduDetails = [
   {
+    Position: "SEE",
+    Company: "Sunshine National School",
+    Location: "Dudhpati, Bhaktapur",
+    Type: "Full Time",
+    Duration: "2017",
+  },
+  {
     Position: "+2 Science",
     Company: "Khwopa Secondary School",
     Location: "Dekocha, Bhaktapur",
