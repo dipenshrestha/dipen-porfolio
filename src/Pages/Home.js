@@ -57,7 +57,7 @@ function Home() {
   }, []);
 
   return (
-    <main className="container mx-auto max-width section md:flex justify-between items-center">
+    <main className="container mt-[-120px] mx-auto max-width section md:flex justify-between items-center">
       <div>
         <h1
           ref={h11}
@@ -79,7 +79,7 @@ function Home() {
         </h2>
       </div>
       <div className="mt-0 md:mt-0">
-        <img ref={myimageref} className="w-[40%] md:ml-auto" src={img} alt="Dipen Shrestha" />
+      <img ref={myimageref} className="w-[75%] md:ml-auto rounded-tl-[10px] rounded-br-[10px] rounded-tr-[70px] rounded-bl-[70px]" src={img} alt="Dipen Shrestha"/>
       </div>
     </main>
   );

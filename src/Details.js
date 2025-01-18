@@ -20,12 +20,11 @@ import npm from "./assets/techstack/npm.png";
 import postman from "./assets/techstack/postman.png";
 import figma from "./assets/techstack/figma.png";
 // Porject Images
-import projectImage1 from "./assets/projects/project1.jpg";
-import projectImage2 from "./assets/projects/project2.jpg";
-import projectImage3 from "./assets/projects/project3.jpg";
-import projectImage4 from "./assets/projects/project4.jpg";
-import projectImage5 from "./assets/projects/project5.jpg";
-import projectImage6 from "./assets/projects/project6.jpg";
+import projectImage1 from "./assets/projects/Imaginface.png";
+import projectImage2 from "./assets/projects/sathisahakari.png";
+import projectImage3 from "./assets/projects/project1.jpg";
+import projectImage4 from "./assets/projects/project1.jpg";
+import projectImage5 from "./assets/projects/chessgame.png";
 
 // Logos
 export const logos = {
@@ -36,7 +35,7 @@ export const logos = {
 // Enter your Personal Details here
 export const personalDetails = {
   name: "Dipen Shrestha",
-  tagline: "Crafting Web Experiences: Code, Design, Deliver",
+  tagline: "I Craft Web Experiences: Code, Design, Deliver",
   img: profile,
   about: `Motivated and detail-oriented recent Computer Engineering graduate from Khwopa Engineering College with a strong academic foundation and active volunteer experience. Possess a solid background in programming and design, enhanced by well-honed leadership and communication skills. Passionate about leveraging technical expertise to build a successful career in Professional Services, specializing in innovative programming and design solutions that drive success.`,
 };
@@ -113,58 +112,45 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
-    title: "Project title 1",
+    title: "ImaginFace: Text Driven Human Face Generation",
     image: projectImage1,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
+    description: `Created “ImaginFace” using DC-GAN and DF-GAN on CelebA Dataset which focuses on utilizing GANs 
+    to create a range of human faces through training, on extensive datasets of actual human faces. Applied Django Framework to create User Interface and deploy the model in it.`,
+    techstack: "Django, DC-GAN, DF-GAN",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/dipenshrestha",
   },
   {
-    title: "Project title 2",
+    title: "Sathi Sahakari",
     image: projectImage2,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
+    description: `Created “Sathi Sahakari” which is an application for maintaining a person's account in the cooperative. Integrated features such as money transactions, account detail views, profile creation, accept or reject transactions and editing functionalities, effectively showcasing CRUD operations. `,
+    techstack: "HTML/CSS, JavaScript, PHP, MySQL",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/dipenshrestha/Sathi-Sahakari",
   },
   {
-    title: "Project title 3",
+    title: "Brane",
     image: projectImage3,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
+    description: `Developed "Brane," an e-commerce website for branded shoe sales, using WordPress and WooCommerce for efficient design and seamless functionality. Integrated login and registration plugins for user authentication and eSewa wallet for secure, convenient payments.`,
+    techstack: "Wordpress, Woocommerce",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/dipenshrestha/Brane",
   },
   {
-    title: "Project title 4",
+    title: "AnimeStore",
     image: projectImage4,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
+    description: `Developed a web application designed for anime enthusiasts, offering a wide range of anime products and related services using PHP, HTML/CSS, JavaScript, and MySQL for database connectivity. Focusing on featuring distinct login portals for anime enthusiasts to offer specialized functionalities and services.`,
+    techstack: "HTML/CSS, JavaScript, PHP, MySQL",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/dipenshrestha/AnimeStoreProject",
   },
   {
-    title: "Project title 5",
+    title: "Chess Game",
     image: projectImage5,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
+    description: `Developed "Chess Game" (Player vs Player) using C/C++ Graphics, focusing on strategic gameplay and object-oriented programming (OOP) principles. Ensured efficient data handling and a user-friendly interface, enhancing the overall gaming experience.`,
+    techstack: "C/C++, C graphics",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 6",
-    image: projectImage6,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/dipenshrestha/Chess-Game-Code-in-C-Programming",
   },
 ];
 
