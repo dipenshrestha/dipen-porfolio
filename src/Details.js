@@ -117,24 +117,7 @@ export const projectDetails = [
     description: `Created “ImaginFace” using DC-GAN and DF-GAN on CelebA Dataset which focuses on utilizing GANs 
     to create a range of human faces through training, on extensive datasets of actual human faces. Applied Django Framework to create User Interface and deploy the model in it.`,
     techstack: "Django, DC-GAN, DF-GAN",
-    previewLink: "https://google.com",
     githubLink: "https://github.com/dipenshrestha",
-  },
-  {
-    title: "Sathi Sahakari",
-    image: projectImage2,
-    description: `Created “Sathi Sahakari” which is an application for maintaining a person's account in the cooperative. Integrated features such as money transactions, account detail views, profile creation, accept or reject transactions and editing functionalities, effectively showcasing CRUD operations. `,
-    techstack: "HTML/CSS, JavaScript, PHP, MySQL",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com/dipenshrestha/Sathi-Sahakari",
-  },
-  {
-    title: "Brane",
-    image: projectImage3,
-    description: `Developed "Brane," an e-commerce website for branded shoe sales, using WordPress and WooCommerce for efficient design and seamless functionality. Integrated login and registration plugins for user authentication and eSewa wallet for secure, convenient payments.`,
-    techstack: "Wordpress, Woocommerce",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com/dipenshrestha/Brane",
   },
   {
     title: "AnimeStore",
@@ -145,11 +128,24 @@ export const projectDetails = [
     githubLink: "https://github.com/dipenshrestha/AnimeStoreProject",
   },
   {
+    title: "Sathi Sahakari",
+    image: projectImage2,
+    description: `Created “Sathi Sahakari” which is an application for maintaining a person's account in the cooperative. Integrated features such as money transactions, account detail views, profile creation, accept or reject transactions and editing functionalities, effectively showcasing CRUD operations. `,
+    techstack: "HTML/CSS, JavaScript, PHP, MySQL",
+    githubLink: "https://github.com/dipenshrestha/Sathi-Sahakari",
+  },
+  {
+    title: "Brane",
+    image: projectImage3,
+    description: `Developed "Brane," an e-commerce website for branded shoe sales, using WordPress and WooCommerce for efficient design and seamless functionality. Integrated login and registration plugins for user authentication and eSewa wallet for secure, convenient payments.`,
+    techstack: "Wordpress, Woocommerce",
+    githubLink: "https://github.com/dipenshrestha/Brane",
+  },
+  {
     title: "Chess Game",
     image: projectImage5,
     description: `Developed "Chess Game" (Player vs Player) using C/C++ Graphics, focusing on strategic gameplay and object-oriented programming (OOP) principles. Ensured efficient data handling and a user-friendly interface, enhancing the overall gaming experience.`,
     techstack: "C/C++, C graphics",
-    previewLink: "https://google.com",
     githubLink: "https://github.com/dipenshrestha/Chess-Game-Code-in-C-Programming",
   },
 ];
