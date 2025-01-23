@@ -1,7 +1,7 @@
 // Enter all your detials in this file
 // Logo images
-import logogradient from "./assets/logo.svg";
-import logo from "./assets/logo.svg";
+import logogradient from "./assets/LearnWithDipen.svg";
+import logo from "./assets/LearnWithDipen.svg";
 // Profile Image
 import profile from "./assets/profile.jpg";
 // Tech stack images
