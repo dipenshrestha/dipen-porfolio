@@ -22,7 +22,7 @@ import figma from "./assets/techstack/figma.png";
 // Porject Images
 import projectImage1 from "./assets/projects/Imaginface.png";
 import projectImage2 from "./assets/projects/sathisahakari.png";
-import projectImage3 from "./assets/projects/project1.jpg";
+import projectImage3 from "./assets/projects/brane.png";
 import projectImage4 from "./assets/projects/animestore.png";
 import projectImage5 from "./assets/projects/chessgame.png";
 import projectImage6 from "./assets/projects/studentregsys.png";
@@ -140,6 +140,7 @@ export const projectDetails = [
     image: projectImage3,
     description: `Developed "Brane," an e-commerce website for branded shoe sales, using WordPress and WooCommerce for efficient design and seamless functionality. Integrated login and registration plugins for user authentication and eSewa wallet for secure, convenient payments.`,
     techstack: "Wordpress, Woocommerce",
+    previewLink: "https://youtu.be/yr1FUwftsE4?si=s7e1_XLFt7p0bFKb",
     githubLink: "https://github.com/dipenshrestha/Brane",
   },
   {
