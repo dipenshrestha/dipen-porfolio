@@ -141,7 +141,7 @@ export const projectDetails = [
     image: projectImage4,
     description: `Developed a web application designed for anime enthusiasts, offering a wide range of anime products and related services using PHP, HTML/CSS, JavaScript, and MySQL for database connectivity. Focusing on featuring distinct login portals for anime enthusiasts to offer specialized functionalities and services.`,
     techstack: "HTML/CSS, JavaScript, PHP, MySQL",
-    previewLink: "https://google.com",
+    previewLink: "http://animestore.infinityfreeapp.com/",
     githubLink: "https://github.com/dipenshrestha/AnimeStoreProject",
   },
   {
