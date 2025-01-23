@@ -139,7 +139,7 @@ export const projectDetails = [
   {
     title: "Brane",
     image: projectImage3,
-    description: `I developed "Brane," an e-commerce platform focused on branded shoe sales, using WordPress for a visually appealing and responsive design while leveraging WooCommerce to enable efficient product management and seamless shopping functionality. To enhance user experience, I integrated login and registration plugins for secure account creation and management, ensuring easy access for customers. Additionally, I incorporated the eSewa wallet, providing a secure and convenient payment solution tailored to the local market, making "Brane" a reliable and user-friendly platform for online shoe shopping.`,
+    description: `Developed "Brane," an e-commerce platform for branded shoe sales, using WordPress for a responsive design and WooCommerce for seamless product management and shopping functionality. To enhance user experience, I integrated secure login and registration features and incorporated the eSewa wallet for convenient local payments, creating a user-friendly and reliable online shopping platform.`,
     techstack: "Wordpress, Woocommerce",
     previewLink: "https://youtu.be/yr1FUwftsE4?si=s7e1_XLFt7p0bFKb",
     githubLink: "https://github.com/dipenshrestha/Brane",
