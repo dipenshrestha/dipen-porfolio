@@ -23,7 +23,7 @@ import figma from "./assets/techstack/figma.png";
 import projectImage1 from "./assets/projects/Imaginface.png";
 import projectImage2 from "./assets/projects/sathisahakari.png";
 import projectImage3 from "./assets/projects/project1.jpg";
-import projectImage4 from "./assets/projects/project1.jpg";
+import projectImage4 from "./assets/projects/animestore.png";
 import projectImage5 from "./assets/projects/chessgame.png";
 
 // Logos
