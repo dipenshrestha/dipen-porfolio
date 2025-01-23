@@ -25,6 +25,7 @@ import projectImage2 from "./assets/projects/sathisahakari.png";
 import projectImage3 from "./assets/projects/project1.jpg";
 import projectImage4 from "./assets/projects/animestore.png";
 import projectImage5 from "./assets/projects/chessgame.png";
+import projectImage6 from "./assets/projects/studentregsys.png";
 
 // Logos
 export const logos = {
@@ -140,6 +141,14 @@ export const projectDetails = [
     description: `Developed "Brane," an e-commerce website for branded shoe sales, using WordPress and WooCommerce for efficient design and seamless functionality. Integrated login and registration plugins for user authentication and eSewa wallet for secure, convenient payments.`,
     techstack: "Wordpress, Woocommerce",
     githubLink: "https://github.com/dipenshrestha/Brane",
+  },
+  {
+    title: "Student Registration System",
+    image: projectImage6,
+    description: `The Student Registration System is a web-based application that simplifies the management of students' personal information, benefiting both students and school authorities. It supports essential CRUD operations (Create, Read, Update, Delete) for efficient handling of student records.`,
+    techstack: "HTML/CSS, JavaScript, PHP, MySQL",
+    previewLink: "http://student-registration-system.infinityfreeapp.com/",
+    githubLink: "https://github.com/dipenshrestha/Student-Registration-System",
   },
   {
     title: "Chess Game",
