@@ -133,7 +133,7 @@ export const projectDetails = [
     image: projectImage2,
     description: `Created “Sathi Sahakari” which is an application for maintaining a person's account in the cooperative. Integrated features such as money transactions, account detail views, profile creation, accept or reject transactions and editing functionalities, effectively showcasing CRUD operations. `,
     techstack: "HTML/CSS, JavaScript, PHP, MySQL",
-    previewLink: "https://youtu.be/0EFCuNGLsdQ?si=nO6NOTt29r2izf-a",
+    previewLink: "http://sathi-sahakari.infinityfreeapp.com/",
     githubLink: "https://github.com/dipenshrestha/Sathi-Sahakari",
   },
   {
