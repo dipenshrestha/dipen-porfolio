@@ -4,7 +4,7 @@ import { logos, socialMediaUrl } from "../Details";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
-  const { linkdein, github, twitter } = socialMediaUrl;
+  const { linkedin, github, twitter } = socialMediaUrl;
   const toggleClass = () => {
     setIsOpen(!isOpen);
   };
@@ -77,7 +77,7 @@ function Header() {
             </a>
           </li>
           <li>
-            <a href={linkdein} target="_blank" rel="noreferrer noopener">
+            <a href={linkedin} target="_blank" rel="noreferrer noopener">
               <svg
                 className="dark:fill-light-heading fill-dark-heading"
                 width="30"

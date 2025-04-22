@@ -1,6 +1,6 @@
 import React from "react";
 import Work from "../Components/Work";
-import { personalDetails, workDetails, eduDetails } from "../Details";
+import { personalDetails, workDetails, volDetails, eduDetails } from "../Details";
 
 function About() {
   return (
@@ -17,10 +17,26 @@ function About() {
       </section>
       <section>
         <h1 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
-          Volunteering Experience
+          Work Experience
         </h1>
         {React.Children.toArray(
           workDetails.map(({ Position, Company, Location, Type, Duration }) => (
+            <Work
+              position={Position}
+              company={Company}
+              location={Location}
+              type={Type}
+              duration={Duration}
+            />
+          ))
+        )}
+      </section>
+      <section>
+        <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
+          Volunteering Experience
+        </h1>
+        {React.Children.toArray(
+          volDetails.map(({ Position, Company, Location, Type, Duration }) => (
             <Work
               position={Position}
               company={Company}
