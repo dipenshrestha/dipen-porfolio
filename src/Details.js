@@ -185,7 +185,14 @@ export const projectDetails = [
 ];
 
 // Enter your Contact Details here
+// export const contactDetails = {
+//   email: "dipenchrestha111@gmail.com",
+//   phone: "+977 9860744627",
+// };
+
 export const contactDetails = {
   email: "dipenchrestha111@gmail.com",
   phone: "+977 9860744627",
+  github: "https://github.com/dipenshrestha",
+  linkedin: "https://www.linkedin.com/in/dipen-stha/",
 };
