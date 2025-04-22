@@ -8,14 +8,20 @@ import profile from "./assets/profile.jpg";
 import html from "./assets/techstack/html.png";
 import css from "./assets/techstack/css.png";
 import sass from "./assets/techstack/sass.png";
+import csharp from "./assets/techstack/Csharp.png"
+import dotnetCore from "./assets/techstack/dotnetCore.png";
+import efcore from "./assets/techstack/efcore.png";
 import js from "./assets/techstack/js.png";
 import react from "./assets/techstack/react.png";
-import redux from "./assets/techstack/redux.png";
+import angular from "./assets/techstack/angular.png";
 import tailwind from "./assets/techstack/tailwind.png";
 import bootstrap from "./assets/techstack/bootstrap.png";
+import dapper from "./assets/techstack/dapper.png"
 import vscode from "./assets/techstack/vscode.png";
+import visualstudio from "./assets/techstack/visualstudio.png"
 import github from "./assets/techstack/github.png";
 import git from "./assets/techstack/git.png";
+import swagger from "./assets/techstack/swagger.png"
 import npm from "./assets/techstack/npm.png";
 import postman from "./assets/techstack/postman.png";
 import figma from "./assets/techstack/figma.png";
@@ -43,7 +49,7 @@ export const personalDetails = {
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/in/dipen-stha/",
+  linkedin: "https://www.linkedin.com/in/dipen-stha/",
   github: "https://github.com/dipenshrestha",
   twitter: "https://x.com/Dipen_stha1",
   instagram: "https://www.instagram.com/dipen.sth/",
@@ -51,6 +57,17 @@ export const socialMediaUrl = {
 
 // Enter your Work Experience here
 export const workDetails = [
+  {
+    Position: "Dotnet Developer",
+    Company: `Channakya Software Private Limited`,
+    Location: "Baneshwor, Kathmandu",
+    Type: "Internship",
+    Duration: "2025 to present",
+  }
+];
+
+// Enter your Volunteering Experience here
+export const volDetails = [
   {
     Position: "Graphics Designer",
     Company: `Hult Prize at Khwopa Engineering College`,
@@ -96,16 +113,22 @@ export const eduDetails = [
 export const techStackDetails = {
   html: html,
   css: css,
+  csharp: csharp,
+  dotnetCore: dotnetCore,
+  efcore: efcore,
   js: js,
   react: react,
-  redux: redux,
+  angular: angular,
   sass: sass,
   tailwind: tailwind,
   bootstrap: bootstrap,
+  dapper: dapper,
   vscode: vscode,
+  visualstudio: visualstudio,
   postman: postman,
   npm: npm,
   git: git,
+  swagger: swagger,
   github: github,
   figma: figma,
 };
