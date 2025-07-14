@@ -57,12 +57,19 @@ export const socialMediaUrl = {
 
 // Enter your Work Experience here
 export const workDetails = [
+    {
+    Position: "Jr. Software Developer",
+    Company: `CodeBee Nepal`,
+    Location: "Dhalku Marga",
+    Type: "Full Time",
+    Duration: "9th June - present",
+  },
   {
-    Position: "Dotnet Developer",
+    Position: "Backend Developer",
     Company: `Channakya Software Private Limited`,
     Location: "Baneshwor, Kathmandu",
     Type: "Internship",
-    Duration: "2025 to present",
+    Duration: "24th February - 4th June",
   }
 ];
 
